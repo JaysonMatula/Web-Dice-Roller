@@ -1,16 +1,16 @@
 function showDots(roll) {
-  for (let i = 1; i <= 9; i++) {
+  for (let i = 1; i <= 7; i++) {
     const dot = document.querySelector(`.dice-dot${i}`);
     if(dot) dot.style.visibility = "hidden";
   }
 
   const patterns = {
   1: [5],
-  2: [1,9],
-  3: [1,5,9],
-  4: [1,3,7,9],
-  5: [1,3,5,7,9],
-  6: [1,3,4,6,7,9]
+  2: [1,7],
+  3: [1,7,5],
+  4: [1,2,6,7],
+  5: [1,2,5,6,7],
+  6: [1,2,3,4,6,7]
 };
 
   patterns[roll].forEach(dotNum => {
