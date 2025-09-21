@@ -1,18 +1,22 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
+.giant-die {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  position: relative;
+  margin: auto;
 }
 .dice-dot1,
 .dice-dot2,
 .dice-dot3,
 .dice-dot4,
 .dice-dot5,
-.dice-dot6 {
+.dice-dot6,
+.dice-dot7 {
   position: absolute;
   width: 30px;
   height: 30px;
