@@ -7,24 +7,21 @@ body {
   background-color: #fff;
   position: relative;
 }
-body::before,
-body::after,
 .dice-dot1,
 .dice-dot2,
 .dice-dot3,
 .dice-dot4,
 .dice-dot5,
-.dice-dot6,
-  content: "";
+.dice-dot6 {
   position: absolute;
   width: 30px;
   height: 30px;
-background-color: black;
-border-radius: 50%;
+  background-color: black;
+  border-radius: 50%;
 }
-.dice-dot1 { top: 20%; left: 20;}
-.dice-dot2 { top: 20%; left: 50;}
-.dice-dot3 { top: 20%; left: 80;}
-.dice-dot4 { top: 80%; left: 20;}
-.dice-dot5 { top: 80%; left: 50;}
-.dice-dot6 { top: 80%; left: 80;}
+.dice-dot1 { top: 20%; left: 20%;}
+.dice-dot2 { top: 20%; left: 50%;}
+.dice-dot3 { top: 20%; left: 80%;}
+.dice-dot4 { top: 80%; left: 20%;}
+.dice-dot5 { top: 80%; left: 50%;}
+.dice-dot6 { top: 80%; left: 80%;}
