@@ -5,7 +5,7 @@ function showDots(roll) {
   }
 
 const patterns = {
-  1: [4],
+  1: [5],
   2: [1,7],
   3: [1,4,7],
   4: [1,2,6,7],
