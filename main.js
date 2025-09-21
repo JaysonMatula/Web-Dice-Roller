@@ -7,10 +7,10 @@ function showDots(roll) {
 const patterns = {
   1: [5],
   2: [1,7],
-  3: [1,5,7],
+  3: [6,5,2],
   4: [1,2,6,7],
   5: [1,2,5,6,7],
-  6: [1,2,3,5,6,7]
+  6: [1,2,3,4,6,7]
 };
 
   patterns[roll].forEach(dotNum => {
