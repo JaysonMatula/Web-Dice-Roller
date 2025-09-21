@@ -19,10 +19,9 @@ body {
   background-color: black;
   border-radius: 50%;
 }
-.dice-dot1 { top: 25%; left: 25%; }
-.dice-dot2 { top: 25%; left: 75%; }
-.dice-dot3 { top: 50%; left: 25%; } 
+.dice-dot1 { top: 20%; left: 20%; }
+.dice-dot2 { top: 20%; left: 80%; }
+.dice-dot3 { top: 50%; left: 20%; } 
 .dice-dot4 { top: 50%; left: 50%; } 
-.dice-dot5 { top: 50%; left: 75%; } 
-.dice-dot6 { top: 75%; left: 25%; } 
-.dice-dot7 { top: 75%; left: 75%; }
+.dice-dot5 { top: 50%; left: 80%; } 
+.dice-dot6 { top: 80%; left: 20%; }
