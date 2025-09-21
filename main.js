@@ -4,13 +4,13 @@ function showDots(roll) {
   }
 
   const patterns = {
-    1: [5],
-    2: [1,6],
-    3: [1,5,6],
-    4: [1,2,4,6],
-    5: [1,2,4,5,6],
-    6: [1,2,3,4,5,6]
-  };
+  1: [5],
+  2: [1,9],
+  3: [1,5,9],
+  4: [1,3,7,9],
+  5: [1,3,5,7,9],
+  6: [1,3,4,6,7,9]
+};
 
   patterns[roll].forEach(dotNum => {
     document.querySelector(`.dice-dot${dotNum}`).style.visibility = "visible";
