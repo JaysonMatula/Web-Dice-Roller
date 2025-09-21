@@ -1,13 +1,23 @@
-body {
+body { 
   margin: 0;
   font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
   background-color: #fff;
 }
+
+.DiceRollApp {
+  text-align: center;
+  margin-top: 20px; 
 }
+
+.giant-die {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
 .dice-dot1,
 .dice-dot2,
 .dice-dot3,
@@ -20,11 +30,13 @@ body {
   height: 30px;
   background-color: black;
   border-radius: 50%;
+  visibility: hidden; /* start hidden */
 }
-.dice-dot1 { top: 20%; left: 20%; }
-.dice-dot2 { top: 20%; left: 80%; }
-.dice-dot3 { top: 50%; left: 20%; }
-.dice-dot4 { top: 50%; left: 80%; }
-.dice-dot5 { top: 50%; left: 50%; }
-.dice-dot6 { top: 80%; left: 20%; }
-.dice-dot7 { top: 80%; left: 80%; }
+
+.dice-dot1 { top: 15%; left: 20%; }
+.dice-dot2 { top: 15%; left: 80%; }
+.dice-dot3 { top: 45%; left: 20%; }
+.dice-dot4 { top: 45%; left: 80%; }
+.dice-dot5 { top: 45%; left: 50%; }
+.dice-dot6 { top: 75%; left: 20%; }
+.dice-dot7 { top: 75%; left: 80%; }
