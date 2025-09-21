@@ -20,11 +20,9 @@ body {
   border-radius: 50%;
 }
 .dice-dot1 { top: 20%; left: 20%; }
-.dice-dot2 { top: 20%; left: 50%; }
-.dice-dot3 { top: 20%; left: 80%; }
-.dice-dot4 { top: 50%; left: 20%; }
+.dice-dot2 { top: 20%; left: 80%; }
+.dice-dot3 { top: 50%; left: 20%; }
+.dice-dot4 { top: 50%; left: 80%; }
 .dice-dot5 { top: 50%; left: 50%; }
-.dice-dot6 { top: 50%; left: 80%; }
-.dice-dot7 { top: 80%; left: 20%; }
-.dice-dot8 { top: 80%; left: 50%; }
-.dice-dot9 { top: 80%; left: 80%; }
+.dice-dot6 { top: 80%; left: 20%; }
+.dice-dot7 { top: 80%; left: 80%; }
