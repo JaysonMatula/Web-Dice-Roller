@@ -5,3 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Web Dice Roller</title>
 <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="DiceRollApp">
+<div class="header">
+  <h1>Web Dice Roller</h1>
+<p class ="instructions">
+  Press Roll Dice or press Enter to roll the dice again
+</p>
+</div>
+<div class="diceOutput" id="diceOutput">
+  <label for="die">Die:</label>
+  <input type="text" id="die" readonly>
+</div>
+  <button id="roll" onclick="diceRoll()" autofocus>Roll Dice</button>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
