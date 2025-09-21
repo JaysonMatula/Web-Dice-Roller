@@ -31,3 +31,8 @@ try {
   console.log("There was a problem rolling the die.")
   }
 }
+document.addEventListenever("Keydown", function(event) {
+  if (event.key === "Enter") {
+    diceRoll();
+  }
+});
