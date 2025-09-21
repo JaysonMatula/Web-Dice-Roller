@@ -4,13 +4,13 @@ function showDots(roll) {
     if(dot) dot.style.visibility = "hidden";
   }
 
-  const patterns = {
-  1: [5],
+const patterns = {
+  1: [4],
   2: [1,7],
-  3: [1,7,5],
+  3: [1,4,7],
   4: [1,2,6,7],
-  5: [1,2,5,6,7],
-  6: [1,2,3,4,6,7]
+  5: [1,2,4,6,7],
+  6: [1,2,3,5,6,7]
 };
 
   patterns[roll].forEach(dotNum => {
