@@ -32,10 +32,10 @@ body {
   border-radius: 50%;
 }
 
-.dice-dot1 { top: 15%; left: 5%; }
+.dice-dot1 { top: 15%; left: 3%; }
 .dice-dot2 { top: 15%; left: 80%; }
-.dice-dot3 { top: 45%; left: 5%; }
+.dice-dot3 { top: 45%; left: 3%; }
 .dice-dot4 { top: 45%; left: 80%; }
 .dice-dot5 { top: 45%; left: 50%; }
-.dice-dot6 { top: 75%; left: 5%; }
+.dice-dot6 { top: 75%; left: 3%; }
 .dice-dot7 { top: 75%; left: 80%; }
