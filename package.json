@@ -1,0 +1,15 @@
+{
+    "name": "web-dice-roller",
+    "description": "Simple Node.js sample for Web Dice Roller",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Jayson Matula",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2"
+    }
+}
